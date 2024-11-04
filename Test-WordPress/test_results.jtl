@@ -1,0 +1,7 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1730721497378,827,Переход на главную страницу WordPress,200,OK,Thread Group 1-1,text,true,,52942,515,1,1,https://cw24054-wordpress-zu0z0.tw1.ru/,814,0,271
+1730721499213,313,Переход на тестовую запись ,200,OK,Thread Group 1-1,text,true,,66181,582,1,1,https://cw24054-wordpress-zu0z0.tw1.ru/2022/12/11/%d0%bf%d1%80%d0%b8%d0%b2%d0%b5%d1%82-%d0%bc%d0%b8%d1%80/,298,0,0
+1730721499527,637,Тестовый комментарий,200,OK,Thread Group 1-1,text,true,,69368,1648,1,1,https://cw24054-wordpress-zu0z0.tw1.ru/2022/12/11/%d0%bf%d1%80%d0%b8%d0%b2%d0%b5%d1%82-%d0%bc%d0%b8%d1%80/?unapproved=503&moderation-hash=722e413bec52bc3b6f0074e1b93b3f0c#comment-503,300,0,0
+1730721499527,301,Тестовый комментарий-0,302,Found,Thread Group 1-1,text,true,,856,829,1,1,https://cw24054-wordpress-zu0z0.tw1.ru/wp-comments-post.php,300,0,0
+1730721499834,330,Тестовый комментарий-1,200,OK,Thread Group 1-1,text,true,,68512,819,1,1,https://cw24054-wordpress-zu0z0.tw1.ru/2022/12/11/%d0%bf%d1%80%d0%b8%d0%b2%d0%b5%d1%82-%d0%bc%d0%b8%d1%80/?unapproved=503&moderation-hash=722e413bec52bc3b6f0074e1b93b3f0c#comment-503,309,0,0
+1730721496317,1777,Test,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,188491,2745,1,1,null,1412,2076,271

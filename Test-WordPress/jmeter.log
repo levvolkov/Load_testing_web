@@ -1,0 +1,49 @@
+2024-11-04 16:47:49,738 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2024-11-04 16:47:49,751 INFO o.a.j.JMeter: Loading user properties from: /Applications/apache-jmeter-5.6.3/bin/user.properties
+2024-11-04 16:47:49,751 INFO o.a.j.JMeter: Loading system properties from: /Applications/apache-jmeter-5.6.3/bin/system.properties
+2024-11-04 16:47:49,755 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2024-11-04 16:47:49,755 INFO o.a.j.JMeter: Version 5.6.3
+2024-11-04 16:47:49,755 INFO o.a.j.JMeter: java.version=17.0.12
+2024-11-04 16:47:49,755 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2024-11-04 16:47:49,755 INFO o.a.j.JMeter: os.name=Mac OS X
+2024-11-04 16:47:49,755 INFO o.a.j.JMeter: os.arch=aarch64
+2024-11-04 16:47:49,755 INFO o.a.j.JMeter: os.version=15.1
+2024-11-04 16:47:49,755 INFO o.a.j.JMeter: file.encoding=UTF-8
+2024-11-04 16:47:49,755 INFO o.a.j.JMeter: java.awt.headless=null
+2024-11-04 16:47:49,756 INFO o.a.j.JMeter: Max memory     =1073741824
+2024-11-04 16:47:49,756 INFO o.a.j.JMeter: Available Processors =10
+2024-11-04 16:47:49,761 INFO o.a.j.JMeter: Default Locale=English (EN)
+2024-11-04 16:47:49,761 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2024-11-04 16:47:49,761 INFO o.a.j.JMeter: JMeterHome=/Applications/apache-jmeter-5.6.3
+2024-11-04 16:47:49,762 INFO o.a.j.JMeter: user.dir  =/Users/levvolkov/Documents/Performance_testingQA79/Load_testing_web/Test-WordPress
+2024-11-04 16:47:49,762 INFO o.a.j.JMeter: PWD       =/Users/levvolkov/Documents/Performance_testingQA79/Load_testing_web/Test-WordPress
+2024-11-04 16:47:49,763 INFO o.a.j.JMeter: IP: 127.0.0.1 Name: Nitrocellulose.local FullName: localhost
+2024-11-04 16:47:49,771 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2024-11-04 16:47:50,035 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2024-11-04 16:47:51,301 INFO o.a.j.r.ClassFinder: Will scan jar /Applications/apache-jmeter-5.6.3/lib/ext/jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-11-04 16:47:51,405 INFO o.a.j.r.ClassFinder: Will scan jar /Applications/apache-jmeter-5.6.3/lib/ext/jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-11-04 16:47:51,460 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=mac_os_x-8a094fc42c314baaa8c681a5b4c6032d-gui
+2024-11-04 16:47:52,663 INFO o.a.j.JMeterGuiLauncher: Loading file: WordPress_COMMENT_TEST.jmx
+2024-11-04 16:47:52,664 INFO o.a.j.s.FileServer: Default base='/Users/levvolkov/Documents/Performance_testingQA79/Load_testing_web/Test-WordPress'
+2024-11-04 16:47:52,665 INFO o.a.j.s.FileServer: Set new base='/Users/levvolkov/Documents/Performance_testingQA79/Load_testing_web/Test-WordPress'
+2024-11-04 16:47:52,768 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2024-11-04 16:47:52,774 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2024-11-04 16:47:52,776 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2024-11-04 16:47:52,777 INFO o.a.j.s.SaveService: Loading file: WordPress_COMMENT_TEST.jmx
+2024-11-04 16:47:52,828 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2024-11-04 16:47:52,830 INFO o.a.j.p.h.c.CacheManager: Will only cache the following methods: [GET]
+2024-11-04 16:47:52,840 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-11-04 16:47:52,840 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-11-04 16:47:52,841 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-11-04 16:47:52,841 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-11-04 16:47:52,841 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2024-11-04 16:47:52,841 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2024-11-04 16:47:52,877 INFO o.a.j.s.FileServer: Set new base='/Users/levvolkov/Documents/Performance_testingQA79/Load_testing_web/Test-WordPress'
+2024-11-04 16:47:53,080 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2024-11-04 16:47:53,080 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2024-11-04 16:47:53,080 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2024-11-04 16:47:53,080 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2024-11-04 16:47:53,137 INFO o.a.j.r.ClassFinder: Will scan jar /Applications/apache-jmeter-5.6.3/lib/ext/jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-11-04 16:47:53,148 INFO o.a.j.r.ClassFinder: Will scan jar /Applications/apache-jmeter-5.6.3/lib/ext/jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-11-04 16:47:53,520 INFO o.j.r.PluginManager: Plugins Status: [jpgc-plugins-manager=1.10, jmeter-core=5.6.3, jmeter-ftp=5.6.3, jmeter-http=5.6.3, jmeter-jdbc=5.6.3, jmeter-jms=5.6.3, jmeter-junit=5.6.3, jmeter-java=5.6.3, jmeter-ldap=5.6.3, jmeter-mail=5.6.3, jmeter-mongodb=5.6.3, jmeter-native=5.6.3, jmeter-tcp=5.6.3, jmeter-components=5.6.3]
+2024-11-04 16:48:00,725 INFO o.a.j.r.ClassFinder: Will scan jar /Applications/apache-jmeter-5.6.3/lib/ext/jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
